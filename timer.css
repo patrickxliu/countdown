@@ -1,0 +1,135 @@
+/* CSS Design is influenced by the Net ninja on YouTube */
+
+body {
+	background-image: url("SD-sunset.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+   }
+
+@font-face {
+	font-family: pixel;
+	src: url('Silkscreen/slkscr.ttf');
+  }
+
+.display {
+	flex: 1;
+	display: flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : center;
+	background-color: rgba(255,255,255,0.25);
+	font-family: tahoma !important;
+
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.caption {
+	color: #3a3a3a;	
+	text-align: center;
+	font-size: 36px;
+	padding: 20px;
+	font-family: 'pixel';
+}
+
+#door{
+	text-align: center;
+}
+.call_to_action_button{
+	padding: 20px;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+button.call_to_action_button {
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'pixel';
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	padding: 20px;
+	width: 0 auto;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background: #971f7d;
+	border-style: none;
+}
+button:hover{
+	background: #fff;
+	color: #971f1d;
+	font-weight: bold;
+}
+button:active{
+	background: #fff;
+	color: #971f7d;
+	font-weight: bold;
+}
+button:focus{
+	background: #fff;
+	color: #971f7d;
+	font-weight: bold;
+}
+.clock{
+	width: auto;
+}
+#numbers{
+	width: auto;
+}
+#numbers span{
+	float: left;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'pixel';
+	margin: 0 2.5%;
+	color: #fff;
+	padding: 20px;
+	width: 20%;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+#numbers span:nth-child(1){
+  background: #3a3a3a;
+}
+#numbers span:nth-child(2){
+  background: #3a3a3a;
+}
+#numbers span:nth-child(3){
+  background: #3a3a3a;
+}
+#numbers span:nth-child(4){
+  background: #3a3a3a;
+}
+
+#numbers:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#units span{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 10px;
+	color: #3a3a3a;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-family: "pixel";
+}
+
+span.turn{
+  	animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+	0%{transform: rotateX(0deg)}
+	100%{transform: rotateX(360deg)}
+}
