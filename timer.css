@@ -1,7 +1,7 @@
 /* CSS Design is influenced by the Net ninja on YouTube */
 
 body {
-	background-image: url("sequoia.jpg");
+	background-image: url("san_diego.jpg");
 	background-color: #cccccc;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
@@ -58,22 +58,22 @@ button.call_to_action_button {
 	width: 0 auto;
 	border-radius: 20px;
 	box-sizing: border-box;
-	background: #0e4c11;
+	background: #3d2596;
 	border-style: none;
 }
 button:hover{
 	background: #fff;
-	color: #0e4c11;
+	color: #3d2596;
 	font-weight: bold;
 }
 button:active{
 	background: #fff;
-	color: #0e4c11;
+	color: #3d2596;
 	font-weight: bold;
 }
 button:focus{
 	background: #fff;
-	color: #0e4c11;
+	color: #3d2596;
 	font-weight: bold;
 }
 .clock{
